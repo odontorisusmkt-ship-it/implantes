@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { theme } from '@/theme/colors';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 /*MINHA INCLUSAO*/
-import { getScheduleLink, getInfoLink } from "@/utils/whatsapp";
+import { getScheduleLink } from "@/utils/whatsapp";
 
 const transformations = [
   {

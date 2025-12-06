@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { IconChevronDown } from '@tabler/icons-react';
 import { theme } from '@/theme/colors';
 /*MINHA INCLUSAO*/
-import { getScheduleLink, getInfoLink } from "@/utils/whatsapp";
+import { getScheduleLink } from "@/utils/whatsapp";
 
 const faqs = [
   {

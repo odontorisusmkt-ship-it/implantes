@@ -10,7 +10,7 @@ import {
   IconCircleCheck
 } from '@tabler/icons-react';
 /*MINHA INCLUSAO*/
-import { getScheduleLink, getInfoLink } from "@/utils/whatsapp";
+import { getScheduleLink } from "@/utils/whatsapp";
 
 const benefits = [
   {
