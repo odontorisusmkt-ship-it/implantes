@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import Image from 'next/image';
 /*MINHA INCLUSAO*/
-import { getScheduleLink, getInfoLink } from "@/utils/whatsapp";
+import { getScheduleLink } from "@/utils/whatsapp";
 
 const steps = [
   {
