@@ -6,7 +6,6 @@ interface WhatsAppOptions {
 }
 
 export const generateWhatsAppLink = (options: WhatsAppOptions): string => {
- console.log ('ESTOU AQUI 222...');
   console.log(options);
   // Mensagem fixa independente dos parâmetros
   const message = encodeURIComponent("Olá! Quero saber mais sobre implantes na Odonto Risus");
@@ -15,7 +14,6 @@ export const generateWhatsAppLink = (options: WhatsAppOptions): string => {
 
 // Função auxiliar para os botões de agendamento
 export const getScheduleLink = (source: string): string => {
-  console.log ('ESTOU AQUI...');
   return generateWhatsAppLink({
     source,
     intent: "agendar uma avaliação"
